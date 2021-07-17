@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #efe6e4;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 20px;
+    height: 100%;
+    width: 100%;
+    color: #533738;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: #533738;
+    transition: text-decoration 0.3s ease;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+  }
+  p {
+    font-weight: 400;
+  }
+  iframe {
+    width: 600px;
+    height: 450px;
+    max-width: 100%;
+  }
+
+  /* Меню */
+  .nav_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 40px;
+  }
+  .nav-header_items {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .nav-header_items > li {
+    
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+    background-color: #efe6e4;
+    border: none;
+    padding: 25px 65px;
+    transition: 0.3s ease;
+  }
+  .nav-header_items > li:hover {
+    background-color: #cf9d99;
+  }
+
+/* Обо мне */
+  .section-hero-name {
+    padding-top: 40px;
+    margin-bottom: 40px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .section-hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+  .section-hero-content_photo img {
+    height: 540px;
+    width: 420px;
+    border: 3px solid #533738;
+  }
+  .section-hero-content_text {
+    max-width: 525px;
+    padding: 0 65px;
+  }
+  .section-hero-content_text > p {
+    margin-top: 0;
+  }
+
+/* Знание языков */
+  .section-table-content {
+    border: 1px solid #eee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 125px;
+    padding-right: 125px;
+    background-color: #e2c4ba;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+  }
+  .section-table-content th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+  }
+  .section-table-content td{
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    text-align: center;
+  }
+  .section-table-content tbody tr:nth-child(odd){
+    background: #fff;
+  }
+  .section-table-content tbody tr:nth-child(even){
+    background: #F7F7F7;
+  }
+
+/* Свяжитесь со мной */
+.section-form{
+  margin: 0 auto;
+  max-width: 80%;
+  box-sizing: border-box;
+  padding: 40px;
+  border-radius: 5px; 
+  background: RGBA(255,255,255,1);
+  -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);        
+  box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);  
+}
+/* Стили полей ввода */
+.section-form-textbox {
+  height:50px;
+  width:100%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 2px solid;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  font-size: 18px; 
+  padding: 10px;
+  margin-bottom: 30px;  
+}
+.section-form-message:focus,
+.section-form-textbox:focus{
+  outline:none;
+}
+/* Стили текстового поля */
+.section-form-message {
+    background: rgba(255, 255, 255, 0.4); 
+    width:100%;
+    height: 120px;
+    border:rgba(0,0,0,.3) 2px solid;
+    box-sizing:border-box;
+    -moz-border-radius: 3px;
+    font-size:18px;
+    font-family: "Montserrat";
+    -webkit-border-radius: 3px;
+    border-radius: 3px; 
+    display:block;
+    padding:10px;
+    margin-bottom:30px;
+    overflow:hidden;
+}
+/* Базовые стили кнопки */
+.section-form-button {
+  height:50px;
+  width:100%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 0px solid;
+  box-sizing:border-box;
+  padding:10px;
+  background:#efe6e4;
+  color:#533738;
+  font-family:  "Montserrat";
+  font-weight:400;
+  font-size: 16pt;
+  transition:background .4s;
+  cursor:pointer;
+}
+/* Изменение фона кнопки при наведении */
+.section-form-button:hover {
+  background:#cf9d99;
+}
+/* Узнать меня подробнее */
+.section-information-title {
+  padding-top: 40px;
+  margin-bottom: 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.section-information-description {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size:18px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 40px;
+  display: none;
+}
+
+.shown {
+  display: block;
+}
+
+.section-footer{
+  padding: 37px 100px 37px 100px;
+  background-color: #e2c4ba;
+}
+.section-footer-massage{
+  font-size: 20px;
+  line-height: 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  text-align: center;
+}

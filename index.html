@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Арсений Шляпин</title>
+</head>
+<body>
+<!-- Header -->
+    <header class="header">
+        <nav class="nav-header">
+          <ul class="nav-header_items">
+            <li><a href="#hero">Обо мне</a></li>
+            <li><a href="#table">Знание языков</a></li>
+            <li><a href="#form">Свяжитесь со мной</a></li>
+            <li><a href="#information">Узнать меня подробнее</a></li>
+          </ul>
+        </nav> 
+<!-- Header -->     
+<main>
+<!-- Hero -->
+    <section id="hero" class="section-hero">
+            <div class="section-hero-name">Арсений Шляпин</div>
+            <div class="section-hero-content">
+            <div class="section-hero-content_photo">
+            <img src="./images/Shlyapin.jpg" alt="Арсений Шляпин" />
+            </div>
+            <div class="section-hero-content_text">
+            <p>
+                <b>Опыт работы:</b>
+            </p> 
+            <p>
+                Интернет-маркетолог в «Digital agency Xpage»‎ 10.2019 - сейчас
+            </p>
+            <p>
+                Интернет-маркетолог в «‎Meteor agency»‎ 01.2019 - 10.2019
+            </p>
+            <p>
+                <b>Адрес:</b> г. Челябинск, ул. Карла Либкнехта, д. 28, кв. 17
+            </p> 
+            <p> 
+                <b>Номер телефона:</b> <a href="tel:+7(902)600-63-60">+7(902)600-63-60</a>
+            </p>
+            <p>
+                <b>Email:</b> <a href="mailto:arseny-shlyapin@yandex.ru">arseny-shlyapin@yandex.ru</a>
+            </p>
+            <p>
+                <b>Telegram:</b> <a href="https://t.me/ashlyapin">@ashlyapin</a>
+            </p>
+            </div>
+    </section>        
+ <!-- /Hero -->              
+
+<!-- Table -->
+        <section id="table" class="section-table">
+                <div class="section-table-content">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td><b>HTML</b></td>
+                        <td><b>CSS</b></td>
+                        <td><b>JavaScript</b></td>
+                        <td><b>PHP</b></td>
+                        <td><b>SQL</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>Отличное владение</b></td>
+                        <td>Нет</td>
+                        <td>Нет</td>
+                        <td>Нет</td>
+                        <td>Нет</td>
+                        <td>Нет</td>
+                    </tr>
+                    <tr>
+                        <td><b>Хорошее владение</b></td>
+                        <td>Нет</td>
+                        <td>Нет</td>
+                        <td>Нет</td>
+                        <td>Нет</td>
+                        <td>Нет</td>
+                    </tr>
+                    <tr>
+                        <td><b>Среднее владение</b></td>
+                        <td>Да</td>
+                        <td>Да</td>
+                        <td>Нет</td>
+                        <td>Нет</td>
+                        <td>Нет</td>
+                    </tr>
+                    <tr>
+                        <td><b>Плохое владение</b></td>
+                        <td>Нет</td>
+                        <td>Нет</td>
+                        <td>Да</td>
+                        <td>Да</td>
+                        <td>Да</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+<!-- /Table --> 
+
+<!--Form-->
+    <form id="form" class="section-form">
+        <input name="name" placeholder="Как вас зовут?" class="section-form-textbox" type="text" required />
+        <input name="telephone" placeholder="Укажите ваш телефон" class="section-form-textbox" type="text" required />
+        <textarea rows="4" cols="50" name="subject" placeholder="Введите ваше сообщение" class="section-form-message" type="text" required></textarea>
+        <input name="submit" class="section-form-button" type="submit" value="Отправить" />
+    </form>    
+<!-- /Form --> 
+
+<!-- Information -->   
+    <section id="information" class="section-information">      
+            <div id="toggle_shown" class="section-information-title" onclick="show(this)"><p>Кликните сюда, чтобы узнать меня подробнее</p></div>
+            <div id="hidden_description" class="section-information-description"><p>
+                В процессе работы мне все больше становилась интересна разработка сайтов. 
+                Я начал сталкиваться со смежными задачами, например по email рассылкам приходилось редактировать напрямую HTML код, или делегировать задачи по передаче данных по API с сервисом. 
+                Постепенно я начал смотреть разные видео на эти темы, оформил подписку на HTML Aкадемию, проходил тренажёры по верстке и программированию, пытался сам делать что то, но не особо получалось.
+                Надеюсь, что курсы помогут систематизировать навыки и  углубят мои знания в JavaScript, PHP и SQL.        
+            </p>
+    </section>   
+<!-- /Information -->  
+
+<!-- Footer --> 
+    <footer class="section-footer">
+        <div class="section-footer-massage">Спасибо за внимание!</div>
+    </footer>
+<!-- /Footer --> 
+</main>
+<script src="./index.js"></script>
+</body>
+</html>
